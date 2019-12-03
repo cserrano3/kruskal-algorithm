@@ -141,7 +141,6 @@ int main() {
 	int numberOfEdges = 5; // Number of edges in graph 
 	struct Graph* graph = createGraph(numberOfVertices, numberOfEdges); 
 
-
 	graph->edge[0].from = 0; 
 	graph->edge[0].to = 1; 
 	graph->edge[0].weight = 3; 
